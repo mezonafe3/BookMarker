@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main id="main">
+        <div class="container">
+            <div class="row">
+                    <div class="main-head text-white text-center py-5 my-2 mx-auto pacifico-regular ">
+                        <h1 class="text-dark position-relative z-1 ">Bookmarker</h1>
+                    </div>
+                <div class="col-12   border border-2  border-black   py-1 " id="fields">
+                    <div class="form-head text-center pt-4">
+                        <h2 class="fs-25 fw-bold">
+                            <i class="fa-solid fa-bookmark"></i>
+                            Bookmark your favorite sites
+                            <i class="fa-solid fa-bookmark"></i>
+                        </h2>
+                    </div>
+                    <!-- <form > -->
+                        <div class="text-field py-3">
+                            <label for="book-name" class="fw-bold fs-20"><i class="fa-solid fa-book-bookmark pe-2 py-2"></i>Site Name</label>
+                            <input class="w-100 p-2 rounded-2 border-0"  id="book-name" type="text" placeholder="Bookmark Name">
+                        </div>
+                        <div class="text-field py-3">
+                            <label for="book-url" class="fw-bold fs-20"><i class="fa-solid fa-bookmark pe-2 py-2"></i>Site URL</label>
+                            <input class="w-100 p-2 rounded-2 border-0"   id="book-url" type="text" placeholder="Website URL">
+                        </div>
+                        <div class="button  d-flex justify-content-center py-3">
+                            <button id="submit" class="btn btn-dark  px-5">Submit</button>
+                        </div>
+                    <!-- </form> -->
+                </div>
+                <div class="col-12 my-3">
+                    <table class="w-100 bg-white text-center fs-20" id="main-content">
+                        <thead class="border border-1 border-top-0 border-start-0  border-end-0">
+                                <th class="p-2 w-25">Index</th>
+                                <th class="p-2 w-25">Website Name</th>
+                                <th class="p-2 w-25">Visit</th>
+                                <th class="p-2 w-25">Delete</th>
+                        </thead>
+                        <tbody id="table-body">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="assets/JS/bootstrap.bundle.min.js"></script>
+    <script src="assets/JS/main.js"></script>
+</body>
+</html>

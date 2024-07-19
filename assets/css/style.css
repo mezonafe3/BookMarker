@@ -1,0 +1,52 @@
+.fs-20{
+    font-size: 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.green{
+    background-color: #9eb23b;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+main {
+    min-height: 100vh;
+    background-color: #f7ecde;
+}
+main .main-head{
+    width: fit-content;
+}
+main .main-head h1::after{
+    content: "";
+    position: absolute;
+    top: 75%;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background-color: #fec260;
+    z-index: -1;
+    transition: all .5s;
+}
+main .main-head:hover h1::after{
+    top: 40%;
+}
+main .button button{
+    background-color: #d1512d;
+    border: none;
+}
+main .button button:hover{
+    background-color: #b23c1c
+}
+main #fields{
+    border: dotted !important;
+    border-right:none !important ;
+    border-left:none !important ;
+}
+main .form-head h2{
+    background-image: linear-gradient(to right, #3ca55c, #d1c64d) !important;
+    background-clip: text !important;
+    color: transparent !important;
+}
